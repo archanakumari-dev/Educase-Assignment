@@ -7,7 +7,7 @@ import Profile from "./Components/Profile"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/Educase-Assignment">
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
