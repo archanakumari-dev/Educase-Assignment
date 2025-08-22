@@ -1,4 +1,4 @@
-import { BrowserRouter,Routes,Route } from "react-router-dom"
+import { BrowserRouter,Routes,Route, HashRouter } from "react-router-dom"
 
 import Home from "./Components/Home"
 import Login from "./Components/Login"
@@ -7,14 +7,14 @@ import Profile from "./Components/Profile"
 
 function App() {
   return (
-    <BrowserRouter  basename="/Educase-Assignment">
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/profile' element={<Profile/>}/>
       </Routes>   
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
