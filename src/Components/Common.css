@@ -1,0 +1,15 @@
+*{
+    box-sizing:border-box;
+    font-family:"rubik","sans-serif";
+}
+
+ :root{
+    --bg-color: #F7F8F9;
+    --main-heading-color: #1D2226;
+    --para-color: #84878B;
+    --white-color:#FFFFFF;
+    --btn-primary-color: #6C25FF;
+    --btn-secondary-color: #6C25FF4B;
+    --hover-primary-btn:#550ee1;
+    --hover-secondary-btn:#5603fc68;
+  }
